@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dafbff;
+    color: #333;
+    align-items: center;
+}
+main:first-of-type {
+    margin-top: 210px; 
+}
+.card:nth-child(-n+3) {
+    margin-top: 130px;
+}
+main {
+    flex: 1;
+    width: 80%;
+    max-width: 1000px;
+    background-color: rgb(178, 228, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.407);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 19px;
+}
+header {
+    background: linear-gradient(135deg, #ff46af, #3ab1e7);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 4px solid #ffb6c1;
+    position: fixed;
+    z-index: 1000; 
+    height: 123px;
+}
+ul.nombres{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+button {
+    background: #ffb6c1;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff8fa3;
+}
+
+
+
+.card {
+    background: #fb6fca;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+
+footer {
+    width: 100%;
+    background: #c2e9fb;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555;
+    border-top: 4px solid #ffb6c1;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.caja img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #000000;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+.caja {
+    background: #fb6fca;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    margin-top: 210px;
+}
+
+section{
+    background-color: #dafbff;
+}
